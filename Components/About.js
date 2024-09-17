@@ -3,6 +3,8 @@ import { Box, Container, Heading, Text, Flex, Avatar, Stack } from "@chakra-ui/r
 import { motion } from "framer-motion";
 import img2 from "../Assests/img1.jpg"
 import img1 from "../Assests/img2.jpg"
+import img3 from "../Assests/img3.jpg"
+import img4 from "../Assests/img4.jpg"
 
 
 const About = () => {
@@ -61,6 +63,8 @@ By means of this website, we are diminishing the space between adopters and the 
         <Flex justifyContent="center" flexWrap="wrap">
           <TeamMember name="Tushar"  imageUrl={img1} delay={0.8} />
           <TeamMember name="Yuvraj"  imageUrl={img2} delay={1.0} />
+          <TeamMember name="Abhishek"  imageUrl={img3} delay={0.5} />
+          <TeamMember name="Priyanshu"  imageUrl={img4} delay={0.3} />
           
           {/* Add more TeamMember components as needed */}
         </Flex>
